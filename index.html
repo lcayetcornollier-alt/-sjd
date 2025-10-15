@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<style>
-			body {
-				background-color: gray;
-			}
-			img {
-				position: relative;
-				display: flex;
-				width: min-content;
-				height: min-content;
-			}
-			div {
-				display: flex;
-				flex-direction: row;
-			}
-			.incorect {
-			}
-		</style>
-	</head>
-	<body>
-		<div>
-			<img class="incorect" src="1.png" />
-			<img src="2.png" style="right: 159px" />
-			<img src="3.png" />
-		</div>
-		<div>
-			<img src="4.png" />
-			<img src="5.png" />
-			<img src="6.png" />
-		</div>
-		<div>
-			<img src="7.png" />
-			<img src="8.png" />
-			<img class="incorect" src="9.png" />
-		</div>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: gray;
+      }
+      img {
+        position: relative;
+        display: flex;
+        width: min-content;
+        height: min-content;
+      }
+      div {
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="1.png" />
+      <img src="2.png" style="right: 159px" />
+      <img src="3.png" style="right: 318px" />
+    </div>
+    <div>
+      <img src="4.png" style="bottom: 318px" />
+      <img src="5.png" style="right: 159px; bottom: 159px" />
+      <img src="6.png" style="right: 318px; bottom: 159px" />
+    </div>
+    <div>
+      <img src="7.png" style="bottom: 475px" />
+      <img src="8.png" style="bottom: 475px; right: 159px" />
+      <img src="9.png" style="bottom: 318px; right: 318px" />
+    </div>
+  </body>
 </html>
